@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.5)  17 MAY 2024 21:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.5)  30 MAY 2024 11:12
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1052,121 +1052,129 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--170
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 183.
 
+Underfull \hbox (badness 10000) in paragraph at lines 199--203
+
+ []
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
 [3]
-<quantic2.png, id=93, 877.2775pt x 657.45625pt>
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+<quantic2.png, id=88, 877.2775pt x 657.45625pt>
 File: quantic2.png Graphic file (type png)
 <use quantic2.png>
-Package pdftex.def Info: quantic2.png  used on input line 249.
+Package pdftex.def Info: quantic2.png  used on input line 309.
 (pdftex.def)             Requested size: 284.52281pt x 91.04004pt.
-<seventh2.png, id=97, 282.05376pt x 416.55624pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--314
+
+ []
+
+<seventh2.png, id=92, 282.05376pt x 416.55624pt>
 File: seventh2.png Graphic file (type png)
 <use seventh2.png>
-Package pdftex.def Info: seventh2.png  used on input line 260.
+Package pdftex.def Info: seventh2.png  used on input line 321.
 (pdftex.def)             Requested size: 284.54924pt x 142.26285pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--266
+Underfull \hbox (badness 10000) in paragraph at lines 325--327
 
  []
 
-[4 <./quantic2.png (PNG copy)> <./seventh2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+[4
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 314--316
+ <./quantic2.png (PNG copy)> <./seventh2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 
  []
 
 [5]
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 344.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 376--378
+Underfull \hbox (badness 10000) in paragraph at lines 373--375
 
  []
 
 [6]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 429.
+LaTeX Font Warning: Command \small invalid in math mode on input line 403.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 449.
+Underfull \hbox (badness 10000) in paragraph at lines 435--437
+
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--456
+LaTeX Font Warning: Command \small invalid in math mode on input line 488.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 508.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--515
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 492--494
+Underfull \hbox (badness 10000) in paragraph at lines 551--553
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 495--498
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 499--502
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 503--506
+Underfull \hbox (badness 10000) in paragraph at lines 554--557
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 512--523
+Underfull \hbox (badness 10000) in paragraph at lines 558--561
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--527
+Underfull \hbox (badness 10000) in paragraph at lines 562--565
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 528--531
+Underfull \hbox (badness 10000) in paragraph at lines 571--582
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--578
+Underfull \hbox (badness 10000) in paragraph at lines 583--586
 
  []
 
-[9] [10
 
-] (./sandesh_article.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 587--590
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 634--637
+
+ []
+
+[10] (./sandesh_article.aux)
 Package rerunfilecheck Info: File `sandesh_article.out' has not changed.
-(rerunfilecheck)             Checksum: F8C5E77DF31954F2016B5F6DE8D67206;1060.
+(rerunfilecheck)             Checksum: 92A1B8EA32DE988F41E7879503E8DB4E;1060.
  ) 
 Here is how much of TeX's memory you used:
- 34228 strings out of 480247
- 793010 string characters out of 5896152
+ 34220 strings out of 480247
+ 792890 string characters out of 5896152
  1209637 words of memory out of 5000000
- 51538 multiletter control sequences out of 15000+600000
+ 51530 multiletter control sequences out of 15000+600000
  479069 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 84i,11n,89p,1474b,727s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,12n,89p,1470b,727s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
@@ -1188,10 +1196,10 @@ ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type
 c/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/symbols/msbm7.pfb>
-Output written on sandesh_article.pdf (10 pages, 338729 bytes).
+Output written on sandesh_article.pdf (10 pages, 339821 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 259 compressed objects within 3 object streams
+ 318 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
  61 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

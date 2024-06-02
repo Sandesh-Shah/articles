@@ -70,12 +70,12 @@ Correspondence to: Sandesh Thakuri, Email: sandeshthakuri111@gmail.com
 \end{center}
 
 \noindent
-\textbf{Abstract:} {\it This paper gives an insight to the Galois theory and discusses its applications in both pure and applied mathematics. First the fundamental theorem of Galois Theory is applied to compute the Galois groups of polynomials and to prove the non-existence of a formula for solving a polynomial equations in rationals having degree \(n \geq 5\). Then the Galois fields which are finite fields are applied to the error-correcting codes and cryptography in computer science. There are no general rules to compute the Galois groups of polynomials of degree more than four. Two new examples of Galois groups of polynomials of degree greater than four are introduced and the concept of Galois group of a single variable polynomial is extended to the Galois group of a multi-variable polynomial.}\\\\
+\textbf{Abstract:} {\it This paper gives an insight to the Galois theory and discusses its applications in both pure and applied mathematics. First the Fundamental theorem of Galois theory is applied to compute the Galois groups of polynomials and to prove the non-existence of a formula for solving a polynomial equations in rationals having degree \(n \geq 5\). Then the Galois fields which are finite fields are applied to the error-correcting codes and cryptography in computer science. There are no general rules to compute the Galois groups of polynomials of degree more than four. Two new examples of Galois groups of polynomials of degree greater than four are introduced and the concept of Galois group of a single variable polynomial is extended to the Galois group of a multi-variable polynomial.}\\\\
 \textbf{Keywords:} Fundamental theorem, Galois group, Galois field, Error-correcting codes, Cryptography
 
 \section{Introduction}
 The foundation of Galois theory was laid by the French mathematician \textit{Évariste Galois}(1811-1832) by determining the necessary and sufficient condition for solving a polynomial equation by radicals \cite{galois}. Galois theory has evolved a lot from then and has found its applications in wide range of fields from pure mathematics especially in abstract algebra, algebraic number theory to algebraic geometry to applied mathematics. This paper is limited to its applications in abstract algebra and in computer science. \\[2mm]
-Modern Galois theory is a theory of field extension which is a vast theory. The core-part of the Galois theory is the ``Fundamental Theorem of Galois Theory'' \cite {hunger}. The fundamental theorem links a Galois extension to its Galois group. Let \(F\) be an extension field of a field \(K\). The group of all automorphisms of \(F\) that fixes \(K\) is called the Galois group of \(F\) over \(K\) and it is denoted by \(Aut_K^F\) \cite{hunger}. The extension field \(F\) of \(K\) is said to be a Galois extension of \(K\) or Galois over K if the fixed field of the Galois group \(Aut_k^F\) is \(K\) itself \cite{hunger}.
+Modern Galois theory is a theory of field extension which is a vast theory. The core-part of the Galois theory is the ``Fundamental theorem of Galois theory'' \cite {hunger}. The Fundamental theorem links a Galois extension to its Galois group. Let \(F\) be an extension field of a field \(K\). The group of all automorphisms of \(F\) that fixes \(K\) is called the Galois group of \(F\) over \(K\) and it is denoted by \(Aut_K^F\) \cite{hunger}. The extension field \(F\) of \(K\) is said to be a Galois extension of \(K\) or Galois over K if the fixed field of the Galois group \(Aut_k^F\) is \(K\) itself \cite{hunger}.
 
 \begin{theorem} \cite{hunger} [\textbf{The Fundamental Theorem}]
   If \(F\) is a finite dimensional Galois extension of \(K\), then there is a one-to-one correspondence between the set of all intermediate fields of \(F\) over \(K\) and the set of subgroups of the Galois group \(Aut_K^F\) such that:
@@ -89,10 +89,10 @@ Modern Galois theory is a theory of field extension which is a vast theory. The 
 A field \(E\) such that \(K \subset E \subset F\) is said to be an intermediate field of \(F\) over \(K\) \cite{hunger}. The index of a subgroup \(H\) of a group \(G\) is the ration of order of \(G\) over \(H\) \cite{hunger}.\\[3mm]
 
 \noindent
-The fundamental theorem links Field theory to Group theory. This allows us to use the tools of Group theory to solve the problems of Field theory. Solving a polynomial equation is a problem of Field theory. We can use the insights of Group theory to solve this problem of field theory which is discussed in some detail in coming sections.
+The Fundamental theorem links field theory to group theory. This allows us to use the tools of group theory to solve the problems of field theory. Solving a polynomial equation is a problem of field theory. We can use the insights of group theory to solve this problem of field theory which is discussed in some detail in the coming section.
 \clearpage
 
-Also, the fundamental theorem gives some insights of the structure of a field extension. The structure of a field as an extension field over some field is mirrored in the structure of its Galois group which is a group of automorphisms but these automorphisms are the symmetries of the field. \textit{So, the structure of field extension is equals to its own symmetry}. And the structure of a field is a complicated thing; specially if it is infinite. But the structure of a group is rather a simple thing; especially if it is finite. So the Galois theory has fairly simplified the complicated thing in a very insightful and beautiful way. So, Galois theory gives a new sights of study of fields which is study of fields via study of its automorphisms.
+Also, the Fundamental theorem gives some insights of the structure of a field extension. The structure of a field as an extension field over some field is mirrored in the structure of its Galois group which is a group of automorphisms but these automorphisms are the symmetries of the field. \textit{So, the structure of field extension is equals to its own symmetry}. And the structure of a field is a complicated thing; specially if it is infinite. But the structure of a group is rather a simple thing; especially if it is finite. So the Galois theory has fairly simplified the complicated thing in a very insightful and beautiful way. So, Galois theory gives a new sights of study of fields which is study of fields via study of its automorphisms.
 \begin{figure}[h]
   \centering
   \begin{tikzpicture}
@@ -166,9 +166,9 @@ Also, the fundamental theorem gives some insights of the structure of a field ex
 
 
 \noindent
-The fundamental theorem also gives a beautiful insights to the nature of a number which depends upon the underlying field. \(\sigma:\{a+b\sqrt{2}\} \mapsto \{a-b\sqrt{2}\}\) where \(a,b \in \mathbb{Q}\) is a field-automorphism of  \(\mathbb{Q}(\sqrt{2})\) that fixes \(\mathbb{Q}\). This map \(\sigma \) is also denoted by \(\sqrt{2} \longmapsto -\sqrt{2}\). So, any polynomial equation over \(\mathbb{Q}\) satisfied by the number \(\sqrt{2}\) is also satisfied by the number \(-\sqrt{2}\). You can fluidly pass between these two numbers and the equation with a rational coefficient will not know. Hence the two numbers \(\sqrt{2}\) and \(-\sqrt{2}\) are algebraically same over \(\mathbb{Q}\).\\
+The Fundamental theorem also gives a beautiful insights to the nature of a number which depends upon the underlying field. \(\sigma:\{a+b\sqrt{2}\} \mapsto \{a-b\sqrt{2}\}\) where \(a,b \in \mathbb{Q}\) is a field-automorphism of  \(\mathbb{Q}(\sqrt{2})\) that fixes \(\mathbb{Q}\). This map \(\sigma \) is also denoted by \(\sqrt{2} \longmapsto -\sqrt{2}\). So, any polynomial equation over \(\mathbb{Q}\) satisfied by the number \(\sqrt{2}\) is also satisfied by the number \(-\sqrt{2}\). We can fluidly pass between these two numbers and the equation with a rational coefficient will not know. Hence the two numbers \(\sqrt{2}\) and \(-\sqrt{2}\) are algebraically same over \(\mathbb{Q}\).\\
 
-But the map \(\sqrt{2} \longmapsto -\sqrt{2}\) does not fix the field \(\mathbb{Q}(\sqrt{2})\) i.e does not fix itself. The only automorphism of \(\mathbb{Q}(\sqrt{2})\) is the identity map. So, you cannot pass \(\sqrt{2}\) for \(-\sqrt{2}\) for every equation with coefficients in \(\mathbb{Q}(\sqrt{2})\). Hence the two numbers \(\sqrt{2}\) and \(-\sqrt{2}\) are not algebraically same over \(\mathbb{Q}(\sqrt{2})\).
+But the map \(\sqrt{2} \longmapsto -\sqrt{2}\) does not fix the field \(\mathbb{Q}(\sqrt{2})\) i.e does not fix itself. The only automorphism of \(\mathbb{Q}(\sqrt{2})\) is the identity map. So, we cannot pass \(\sqrt{2}\) for \(-\sqrt{2}\) for every equation with coefficients in \(\mathbb{Q}(\sqrt{2})\). Hence the two numbers \(\sqrt{2}\) and \(-\sqrt{2}\) are not algebraically same over \(\mathbb{Q}(\sqrt{2})\).
 
 \begin{figure}[h]
   \centering
@@ -180,7 +180,7 @@ But the map \(\sqrt{2} \longmapsto -\sqrt{2}\) does not fix the field \(\mathbb{
 
       \draw[<-,thick] (f)--(e);
 
-      \node[right of=f, xshift=40mm] (i) {\{e\}};
+      \node[right of=f, xshift=40mm] (i) {\{i\}};
       \node[below of=i, yshift=-11mm] (h) {\{\(i\), \(\sqrt{2} \mapsto -\sqrt{2}\)\}};
 
 
@@ -193,16 +193,15 @@ But the map \(\sqrt{2} \longmapsto -\sqrt{2}\) does not fix the field \(\mathbb{
     \caption{\footnotesize Field containing \(\sqrt{2}\)}
     \end{figure}
 
-After the fundamental theorem, next concept in Galois Theory we are applying is the \textbf{Galois Field}. The Galois field with GF\((q)\) is a field containing \(q\) number of elements. Since a Galois field contains a finite number of elements it can be represented using finite number of integers \cite{galois} and Galois fields are the finite extension of prime fields so,\\
-\(GF(p^n)=\{0,1,...,p-1\} \cup \{p,p+1,...,p+p-1\} \cup ... \cup \{p^{n-1},p^{n-1}+1,...,p^{n-1}+p^{n-2}+...+p-1\}\), where \(p\) is a prime integer. This representation of a Galois field is called the integer representation.
-
-\begin{example}
+    After the Fundamental theorem, next concept in Galois theory we are applying is the \textbf{Galois field}. The Galois field with GF\((q)\) is a field containing \(q\) number of elements. Since a Galois field contains a finite number of elements it can be represented using finite number of integers \cite{galois} and Galois fields are the finite extension of prime fields.
+    \begin{equation*}
+      GF(p^n)=\{0,1,...,p-1\} \cup \{p,p+1,...,p+p-1\} \cup ... \cup \{p^{n-1},p^{n-1}+1,...,p^{n-1}+p^{n-2}+...+p-1\}
+    \end{equation*}
+    where \(p\) is a prime. This representation of a Galois field is called the integer representation. Then\\
     \(GF(2)=\{0,1\}\)\\
-    \(GF(2^3)=\{0,1\} \cup \{2,2+1\} \cup \{2^2,2^2+1,2^2+2,2^2+2+1\}=\{0,1,2,3,4,5,6,7\}\)
-    \label{ex1}
-\end{example}
+    \(GF(2^3)=\{0,1\} \cup \{2,2+1\} \cup \{2^2,2^2+1,2^2+2,2^2+2+1\}=\{0,1,2,3,4,5,6,7\}\)\\
 
-Here, the digits \(2,3,..,7\) of the field \(GF(2^3)\) do not lie on the field \(GF(2)\). If we look the field \(GF(2^3)\) as an extension field of \(GF(2)\) and write its elements using only the elements of the base field \(GF(2)\) then we have the following representations:
+Here, the digits \(2,3,..,7\) of the field \(GF(2^3)\) do not lie in the field \(GF(2)\). If we look the field \(GF(2^3)\) as an extension field of \(GF(2)\) and write its elements using only the elements of the base field \(GF(2)\) then we have the following representations:
 \begin{table}[h!]
   \centering
 \begin{tabular}{|c|c|c|}
@@ -218,30 +217,91 @@ Here, the digits \(2,3,..,7\) of the field \(GF(2^3)\) do not lie on the field \
 \end{table}
 
 \noindent
-For a field \(F\) and an irreducible polynomial \(f(x) \in F[x]\) the quotient ring \(F[x]/(f(x))\) is field \cite{galois}. If \(F\) is a finite field and \(f(x) \in F[x]\) is irreducible then \(F[x]/(f(x))\) is a finite field. This field consists of all polynomials modulo \(f(x)\). If \(F=GF(2^3)\) then \(x^8+x^7+...+x+1 \in F[x]\) is irreducible in \(F[x]\). Since \(F\) has \(8\) elements which are modulo \(8\), elements of \(F\) is represented by the elements of the factor ring \(F[x]/(f(x))\) \cite{aes}. In the Example-\ref{ex1}, the number \(5\) has the representation \(2^2+1\). This gives the polynomial representation \(x^2+1=(1,0,1)\)(coefficient of \(x^2\) is \(1\) of \(x\) is \(0\) and of constant is \(1\) ) Now the binary equivalent of \(5\) is \(101\). Since the elements of a Galois field can be represented as polynomials the operations are similar to polynomial operations.
+For a field \(F\) and an irreducible polynomial \(f(x) \in F[x]\) the quotient ring \(F[x]/(f(x))\) is a field \cite{galois}. If \(F\) is a finite field and \(f(x) \in F[x]\) is irreducible then \(F[x]/(f(x))\) is a finite field. This field consists of all polynomials modulo \(f(x)\). If \(F=GF(2^3)\) then \(x^8+x^7+...+x+1 \in F[x]\) is irreducible in \(F[x]\). Since \(F\) has \(8\) elements which are modulo \(8\), elements of \(F\) is represented by the elements of the factor ring \(F[x]/(f(x))\) \cite{aes}. In the field \(GF(2^3)\), the number \(5\) has the representation \(2^2+1\). This gives the polynomial representation \(x^2+1=(1,0,1)\)(coefficient of \(x^2\) is \(1\) of \(x\) is \(0\) and of constant is \(1\) ) Now the binary equivalent of \(5\) is \(101\). Since the elements of a Galois field can be represented as polynomials the operations are similar to polynomial operations.
 
 
-\section{Application to the Galois Groups of Polynomials}
-The fundamental theorem finds its application directly in determining and computing the Galois Group of a polynomial. The Galois group of a polynomial gives insights about the nature of roots of the polynomial and tells us whether the polynomial equation can be solved by radicals or not. The Galois group \(G\) of a polynomial \(f \in K[x]\) is the group \(Aut_K^F\), where \(F\) is a splitting field of \(f\) over \(K\) \cite{hunger}. A minimal field \(F\) where a polynomial \(f \in K[x]\) splits into linear factors and thus contains all roots of \(f(x)\) is called a splitting field of \(f\) over \(K\) \cite{hunger}.\\
+\section{Application to the Galois groups of polynomials}
+The Fundamental theorem finds its application directly in determining and computing the Galois group of a polynomial. The Galois group of a polynomial gives insights about the nature of roots of the polynomial and tells us whether the polynomial equation can be solved by radicals or not. The Galois group \(G\) of a polynomial \(f \in K[x]\) is the group \(Aut_K^F\), where \(F\) is a splitting field of \(f\) over \(K\) \cite{hunger}. A minimal field \(F\) where a polynomial \(f \in K[x]\) splits into linear factors and thus contains all roots of \(f(x)\) is called a splitting field of \(f\) over \(K\) \cite{hunger}.\\
 
 \noindent
-First we can know the nature of the Galois group \(G\) using the fundamental theorem. The group of automorphism of \(F\) is given by the permutations of roots of \(f\). Hence \(G\) is a subgroup of the symmetric group \(S_n\) \cite{hunger}. Since the  \(F\) is a splitting field of irreducible \(f\) over \(K\) this field \textbf{\(F\) is a Galois extension} of the field \(K\) \cite{hunger} if all the roots \(u_1,...,u_n\) of \(f\) are simple roots(i.e if \(f\) is separable over \(K\)) so \(F=K(u_1,...,u_n)\). Now for \(u_i \neq u_j\) there exists an field-homomorphism \( \sigma : K(u_i) \mapsto K(u_j) \) which extends to field-automorphism of \(F\) that fixes \(K\) \cite{hunger}. Thus for each \(u_i \neq u_j\) there exists \(\sigma \in G\) such that \(\sigma(u_i) = u_j\) hence the \(G\) is a transitive subgroup of \(S_n\).
+First we can know the nature of the Galois group \(G\) using the Fundamental theorem. The group of automorphism of \(F\) is given by the permutations of roots of \(f\). Hence \(G\) is a subgroup of the symmetric group \(S_n\) \cite{hunger}. Since the  \(F\) is a splitting field of irreducible \(f\) over \(K\) this field \textbf{\(F\) is a Galois extension} of the field \(K\) if all the roots \(u_1,...,u_n\) of \(f\) are simple roots(i.e if \(f\) is separable over \(K\)) so \(F=K(u_1,...,u_n)\). Now for \(u_i \neq u_j\) there exists an field-homomorphism \( \sigma : K(u_i) \mapsto K(u_j) \) which extends to field-automorphism of \(F\) that fixes \(K\). Thus for each \(u_i \neq u_j\) there exists \(\sigma \in G\) such that \(\sigma(u_i) = u_j\) hence the \(G\) is a transitive subgroup of \(S_n\).
 
 \begin{theorem} \cite{hunger}
   Let \(G\) be a Galois group of a polynomial \(f \in K[x]\). \(G\) is isomorphic to a subgroup of some symmetric group \(S_n\). If \(f\) is separable of degree \(n\), the \(n\) divides \(|G|\) and \(G\) isomorphic to a transitive subgroup of \(S_n\).
 \end{theorem}
 
 \noindent
-If \(f\) is irreducible over the field of rationals \(\mathbb{Q}\) then \(f\) is separable \cite{hunger}. So first we discuss the Galois group of irreducible polynomials. The only non-trivial transitive subgroup of \(S_2\) is \(S_2\) itself hence the Galois groups of an irreducible quadratic polynomial is \(S_2\). The non-trivial transitive subgroups of \(S_3\) are \(A_3\) and \(S_3\) itself. Hence the Galois group of a irreducible cubic is \(A_3\) or \(S_3\). The technique to compute the Galois group of an irreducible quartic is to first determine its resolvant cubic. The cubic polynomial whose roots are \(\alpha\), \(\beta\), \(\gamma\) where, \(\alpha=u_1u_2+u_3u_4,\) \(\beta=u_1u_3+u_2u_4,\) \(\gamma=u_1u_4+u_2u_3\) and  \(u_1, u_2, u_3, u_4\) are the roots of the \(f\), is called the resolvant cubic of \(f\) \cite{hunger}. The resolvant cubic is actually a polynomial over \(K\) \cite{hunger}. If \(V=\{(1),(12)(34),(13)(24),(14)(23)\}\) then, under ``the Galois correspondence the subfield \(K(\alpha, \beta, \gamma)\) corresponds to the normal subgroup \(V \cap G\)'' \cite{hunger} because \(K(\alpha,\beta,\gamma)\) is a splitting field of the resolvant cubic whose Galois group is a subgroup of \(S_3\) and only normal subgroup \(N\) of \(S_4\) with \(|N| \leq 6\) is \(V\). ``Hence \(K(\alpha, \beta, \gamma)\) is Galois over \(K\) and \(Aut_K^{K(\alpha, \beta, \gamma)} = G/(G \cap V)\)'' \cite{hunger}.\\[3mm]
+If \(f\) is irreducible over the field of rationals \(\mathbb{Q}\) then \(f\) is separable \cite{hunger}. So first we discuss the Galois group of irreducible polynomials. The only non-trivial transitive subgroup of \(S_2\) is \(S_2\) itself hence the Galois groups of an irreducible quadratic polynomial is \(S_2\). The non-trivial transitive subgroups of \(S_3\) are \(A_3\) and \(S_3\) itself. Hence the Galois group of a irreducible cubic is \(A_3\) or \(S_3\). The technique to compute the Galois group of an irreducible quartic is to first determine its resolvant cubic. The cubic polynomial whose roots are \(\alpha\), \(\beta\), \(\gamma\) where, \(\alpha=u_1u_2+u_3u_4,\) \(\beta=u_1u_3+u_2u_4,\) \(\gamma=u_1u_4+u_2u_3\) and  \(u_1, u_2, u_3, u_4\) are the roots of \(f\), is called the resolvant cubic of \(f\) \cite{hunger}. The resolvant cubic is actually a polynomial over \(K\) \cite{hunger}. If \(V=\{(1),(12)(34),(13)(24),(14)(23)\}\) then, under ``the Galois correspondence the subfield \(K(\alpha, \beta, \gamma)\) corresponds to the normal subgroup \(V \cap G\)'' \cite{hunger} because \(K(\alpha,\beta,\gamma)\) is a splitting field of the resolvant cubic whose Galois group is a subgroup of \(S_3\) and only normal subgroup \(N\) of \(S_4\) with \(|N| \leq 6\) is \(V\). ``Hence \(K(\alpha, \beta, \gamma)\) is Galois over \(K\) and \(Aut_K^{K(\alpha, \beta, \gamma)} = G/(G \cap V)\)'' \cite{hunger}.\\[2mm]
+Here \(G \subseteq S_4\) so if \([K(\alpha, \beta, \gamma):K=6\) then from the statement-(i) of the Fundamental theorem we have \(|G/(G \cap V|= [K(\alpha, \beta, \gamma):K]=6\) this gives the Galois group \(G\) of \(f\) is \(S_4\) itself as \(|V|=4\) and \(|G/(G \cap V|=6\) is possible only if \(|G|=24\). Similarly  \([K(\alpha, \beta, \gamma):K]=3\) the \(G=A_4\) and so on.
+\clearpage
+
+\begin{figure}[h]
+    \centering
+  \begin{tikzpicture}
+
+    \node[rectangle, thick, draw,
+    minimum height=3.5cm,
+    minimum width=2.5cm] (rec) at (0,0) {};
+
+    \node[rectangle, thick, draw,
+    minimum height=3.5cm,
+    minimum width=2.5cm] (rec2) at (6,0) {};
+
+    \node[minimum width=7mm,
+    minimum height=7mm,
+    fill=gray!40] (f) at (0,1.3) {\(K(u_1,u_2,u_3,u_4)\)};
+
+      \node[minimum width=7mm,
+      minimum height=7mm,
+      fill=gray!40,
+      below of=f, yshift=-3mm] (e) {\(K(\alpha, \beta, \gamma\)};
+
+
+      \node[minimum width=7mm,
+      minimum height=7mm,
+      fill=gray!40,
+      below of=e, yshift=-3mm] (k) {\(K\)};
+
+      \draw[<-,thick] (f)--(e);
+      \draw[<-,thick] (e)--(k);
+
+      \node[right of=f,
+      xshift=5cm,
+      minimum width=7mm,
+      minimum height=7mm,
+      fill=gray!40,
+      ] (i) {\{e\}};
+
+      \node[minimum width=7mm,
+      minimum height=7mm,
+      fill=gray!40,
+      below of=i, yshift=-3mm] (h) {\(G/G \cap V\)};
+
+      \node[
+      minimum width=7mm,
+      minimum height=7mm,
+      fill=gray!40,
+      below of=h, yshift=-3mm] (g) {\(G\)};
+
+      \draw[->, thick] (i)--(h);
+      \draw[->, thick] (h)--(g);
+
+      \draw[<->,thick] (i)--(f);
+      \draw[<->,thick] (h)--(e);
+      \draw[<->,thick] (g)--(k);
+    \end{tikzpicture}
+    \caption{\footnotesize Galois correspondence of the quartic}
+  \end{figure}
+
 \noindent
-The determination and computation of Galois groups of polynomials of degree \(n \geq 5\) is not as easy and straight forward as above because there are not general rules to compute it \cite{hunger}. However we have the following theorem and using this theorem we have computed the Galois groups of two polynomials one of degree \(5\) and another of degree \(7\).
+The determination and computation of Galois groups of polynomials of degree \(n \geq 5\) is not as easy and straight forward as above because there are no general rules to compute it \cite{hunger}. However we have the following theorem and using this theorem we have computed the Galois groups of two polynomials one of degree \(5\) and another of degree \(7\).
 
 \begin{theorem} \cite{hunger}
   \label{quintic}
 If \(p\) is a prime and \(f\) is an irreducible polynomial of degree \(p\) over \(\mathbb{Q}\) which has precisely two nonreal roots, then the Galois group of \(f\) is \(S_p\).
 \end{theorem}
 
-\textbf{Computation of Galois group of a quintic}\\
+\textbf{Galois group of a quintic}\\
 
 \begin{figure}[h!]
   \centering
@@ -251,8 +311,9 @@ If \(p\) is a prime and \(f\) is an irreducible polynomial of degree \(p\) over 
 \end{figure}
 \noindent
 The polynomial is \(f(x)=x^5-10x+5 \in \mathbb{Q}[x]\). Its graph is shown above.  From its graph this polynomial has only three real roots. This polynomial is ``irreducible over \(\mathbb{Q}\) by the Eisenstein's criterion'' \cite{hunger} so by Theorem-{\ref{quintic}} its Galois group is \(S_5\) which contains \(5!=120\) elements.\\
+
 \noindent
-\textbf{Computation of Galois group of a seventh degree polynomial}\\
+\textbf{Galois group of a seventh degree polynomial}\\
 The polynomial is \(f(x)=x^7-2x^5-4x^3+2x^2+4x-2\) which is ``irreducible over \(\mathbb{Q}\) by the Eisenstein's criterion'' \cite{hunger}. Its graph is shown below.
 
 \begin{figure}[h!]
@@ -285,12 +346,10 @@ Next we generalize the Galois group of a polynomial in single variable to the \t
     y &= x^2+1 \\
     y &=x
   \end{align}
-  The roots of these simultaneous polynomials are \(\omega, {\omega}^2\). Then the splitting field of this system is \(\mathbb{Q}(\omega)\). Here the automorphisms of \(\mathbb{Q}(\omega)\) are: \\
-  \(\omega \longmapsto \omega\) and \hspace{9mm} \(\omega \longmapsto {\omega}^2\).\\
-  Hence the Galois group of this system is \(\{(1), (12)\} \cong {\mathbb{Z}}_2\).
+  The roots of these simultaneous polynomials are \(\omega, {\omega}^2\). Then the splitting field of this system is \(\mathbb{Q}(\omega)\). Here the automorphisms of \(\mathbb{Q}(\omega)\) are \(\omega \longmapsto \omega\) and \(\omega \longmapsto {\omega}^2\). Hence the Galois group of this system is \(S_2 \cong {\mathbb{Z}}_2\).
 \end{example}
 
-\subsection{Application to the Classic problem}
+\subsection{Application to the classic problem}
 Now we apply the Galois theory to solve the ``classic problem'' using the Galois groups discussed above.  The classic problem is that is every polynomial equation solvable by the method of radicals? Equivalently, does there exist an explicit "formula" which gives all solutions of a polynomial equation? \\If the degree of  the polynomial \(f\) is at most four then the answer is \textbf{yes} \cite{hunger}.\\
 
 \noindent
@@ -302,7 +361,7 @@ Conversely suppose there exists such a tower of fields and that \(E_n\) contains
 \[E_n = K(u_1,u_2,...,u_n)\]
 and each solution is of the form \(f(u_1,...,u_n)/g(u_1,...,u_n)\) where \(f,g \in K[x_1,...,x_n]\). Thus each solution is expressible in terms of a finite number of elements of \(K\), a finite number of field operations and \(u_1,...,u_n\). But this amounts to saying that there is a formula for the solutions of the particular given equation \cite{hunger}.
 
-Now that we made a formulation our problem we make a use of the following theorems to deduce the result. The following theorems make a use of Group theory which was stated earlier in the fundamental theorem of Galois theory. A group \(G\) is solvable if it has a solvable series and a finite chain of subgroups \(G=G_0>G_1>...>G_n={e}\) such that \(G_{i+1}\) is normal in \(G_i\) for \(0 \leq i < n\) and  each factor group \(G_i/G_{i+1}\) is abelian is called a solvable series.
+Now that we made a formulation our problem we make a use of the following theorems to deduce the result. The following theorems make a use of group theory which was stated earlier in the Fundamental theorem of Galois theory. A group \(G\) is \textit{solvable} if it has a solvable series and a finite chain of subgroups \(G=G_0>G_1>...>G_n={e}\) such that \(G_{i+1}\) is normal in \(G_i\) for \(0 \leq i < n\) and  each factor group \(G_i/G_{i+1}\) is abelian is called a \textit{solvable series}.
 \begin{theorem} \cite{hunger}
   \begin{enumerate}
   \item If \(F\) is a radical extension of \(K\) and \(E\) is an intermediate field, then \(Aut_K^E\) is a solvable group
@@ -322,7 +381,7 @@ Galois theory gives the precise condition under which a polynomial of degree \(n
 \end{example}
 
 \section{Application to the Coding theory}
-The Galois Fields are applied in coding theory in computer science. The loss of information is inevitable. It cannot be prevented or stopped. So, we need a way of retrieving the lost information or correcting the false information.
+The Galois fields are applied in coding theory in computer science. The loss of information is inevitable. It cannot be prevented or stopped. So, we need a way of retrieving the lost information or correcting the false information.
 
 \begin{enumerate}
 \item Paintings gets deteriorated over time and has to be renovated.
@@ -369,8 +428,8 @@ The dual code of \(C\) is the set \(C^{\perp}=\{x \in V \;| \; x.y=0 \;\; \foral
 
   \node[right of=e, xshift=35mm] (x) {\((x_1,x_2,...,x_n)\)};
 
-  \draw[->,ultra thick] (u)--(e);
-  \draw[->,ultra thick] (e)--(x);
+  \draw[->,very thick] (u)--(e);
+  \draw[->,very thick] (e)--(x);
 \end{tikzpicture}
 
 \noindent
@@ -490,7 +549,7 @@ Some usages of the error-correcting codes are as follows:
 
 \section{Application to the Cryptography}
 \noindent
-Cryptography is the science of safe-guarding information by converting the original message into something different. Galois Fields are the life of modern cryptography used in digital communication. Advance Encryption Standard(AES) is one of the widely used cryptography standard developed by two Belgian cryptographers,  \textit{Vincent Rijmen and Joan Daemen} \cite{aes} which make a use of Galois Field. The AES is a computer security standard for cryptography which is approved by the ``Federal Information Processing Standards Publications'' of USA which became effective on May 26, 2002. ``The AES algorithm is a \textit{symmetric block cipher} that can encrypt and decrypt digital information'' \cite{aes}. Symmetric key cryptography is used to share information between two parties where the two parties share a secret ``key'' and a public encryption algorithm \cite{wireless}. The generic algorithm of AES consists of smaller sub-algorithms namely ``Sub-Bytes, Shift-Rows, Mix-Columns and Add-Round-Key'' \cite{aes}.\\[2mm]
+Cryptography is the science of safe-guarding information by converting the original message into something different. Galois fields are the life of modern cryptography used in digital communication. Advance Encryption Standard(AES) is one of the widely used cryptography standard developed by two Belgian cryptographers,  \textit{Vincent Rijmen and Joan Daemen} \cite{aes} which make a use of Galois field. The AES is a computer security standard for cryptography which is approved by the ``Federal Information Processing Standards Publications'' of USA which became effective on May 26, 2002. ``The AES algorithm is a \textit{symmetric block cipher} that can encrypt and decrypt digital information'' \cite{aes}. Symmetric key cryptography is used to share information between two parties where the two parties share a secret ``key'' and a public encryption algorithm \cite{wireless}. The generic algorithm of AES consists of smaller sub-algorithms namely ``Sub-Bytes, Shift-Rows, Mix-Columns and Add-Round-Key'' \cite{aes}.\\[2mm]
 
 \noindent
 \textbf{The State}\\[1mm]
@@ -573,13 +632,12 @@ Let us encrypt the sentence "Fun Cryptography". This consists of exactly 16 char
 % -------------------------------------------------------------------------------------------
 \vspace{5mm}
 \textbf{Conclusions}\\
-The Galois theory that begun in the 19th century due to the french mathematician \textit{Évariste Galois} is still a relevant field of research today. Over the 200 years this theory has found its development as a linking theory of the two main theories: Group Theory and Field theory. It has found its applications in both pure and applied mathematics; where-ever ``Field Theory'' has anything to do with.\\
+The Galois theory that begun in the 19th century due to the french mathematician \textit{Évariste Galois} is still a relevant field of research today. Over the 200 years this theory has found its development as a linking theory of the two main theories: Group theory and field theory. It has found its applications in both pure and applied mathematics; where-ever ``Field Theory'' has anything to do with.\\
 Many concepts of Abstract algebra, Algebraic number theory, Algebraic geometry, etc rely heavily on Galois theory because they are developed on field extensions, and the computer science relies heavily on Galois field.\\
 
-\clearpage
 \textbf{Acknowledgment:} \\
-I would like to thank \textit{Kathmandu Center for Research and Education Chinese Academy of Sciences-TU} for awarding me with \\
-\textit{KCRE Excellent Student Thesis Grant 2023(Grant number: 08092023).}
+I would like to thank \textit{Kathmandu Center for Research and Education Chinese Academy of Sciences-TU} for awarding me with
+\textit{KCRE Excellent Student Thesis Grant 2023(Grant number: 08092023)}\\ to financially aid me for this research.
 \vspace{7mm}
 
 

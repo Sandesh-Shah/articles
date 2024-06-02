@@ -43,7 +43,6 @@
     "tikz"
     "pgfplots")
    (LaTeX-add-labels
-    "ex1"
     "quintic"
     "quintic-fig"
     "linear")
